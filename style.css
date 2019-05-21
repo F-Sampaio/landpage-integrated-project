@@ -2,28 +2,27 @@
     --mainColor: #809c13; 
 }
 
+@font-face {
+    font-family: "SF Display";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+  }
+
 body {
-    background: url('https://www.tokkoro.com/picsup/3102866-agriculture_animal_animal-photography_blur_cattle_close-up_countryside_cow_depth-of-field_dirt_farm_farmland_field_focus_grass_grass-field_grassland_herd_livestock_mammal_meadow_pasture_rural.jpg') no-repeat;
-    background-size: cover;
+
+    font-family: "SF Display";
+    background-color: #ffffff;
+    color: #000;
     
 }
-body.modal-open > :not(.modal) {
+/* body.modal-open > :not(.modal) {
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);
     -ms-filter: blur(1px);
     filter: blur(1px);
-
-
-
-}
+} */
 /* MENU STUFF */
-.navbar-custom {
-    background-color: #ffffff;
-    background-size: cover;
-    color: black;
-    margin-bottom: 50px;
-}
 
 ul {
     list-style-type: none;
