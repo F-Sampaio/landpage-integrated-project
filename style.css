@@ -15,50 +15,34 @@ body {
     color: #000;
     
 }
-/* body.modal-open > :not(.modal) {
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
-} */
+
 /* MENU STUFF */
 
 ul {
+    width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     overflow: hidden;
+    border-bottom: 1px solid #000;
 }
 
 li {
     float: left;
     font-size: 20px;
+    border-width: 1px;
+
 }
 
-
 li a {
-    background:
-       linear-gradient(
-         to bottom, var(--mainColor) 0%,
-         var(--mainColor) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 4px 4px;
     color: #000;
-    text-decoration: none;
-    transition: background-size .2s;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 20px;
+    margin: 20px;
 
   }
   
 li a:hover {
-    background-size: 4px 50px;
-    text-decoration: none;
-    color: #ffffff
+    color: #000;
+    text-decoration: underline var(--mainColor);
 }
 
 
