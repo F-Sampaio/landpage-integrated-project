@@ -84,6 +84,19 @@ li a:hover {
 
 /* END OF FORM STUFF */
 
+/* CAROUSEL STUFF */
+.carousel-item{
+  width: 900px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
 
 
 
