@@ -95,7 +95,15 @@ h1, h2, h3, h4, h5, p {
 /* END OF FORM STUFF */
 
 /* CAROUSEL STUFF */
+.carousel-item  {
+    margin-top: 50px;
+    height: 600px;
+}
 
+.carousel-item img {
+    position: absolute;
+    height: 600px;
+}
 
 
 
