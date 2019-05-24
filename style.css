@@ -8,6 +8,10 @@
     src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
   }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     font-family: "SF Display";
@@ -86,25 +90,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 
-.modal-open .container-fluid, .modal-open  .container {
-    -webkit-filter: blur(5px) grayscale(90%);
-}
 
-.section {
-    -webkit-transform: scale(1);
-    -webkit-transition: all linear 0.5s 0;
-  }
-
-.modal-open .section {
-    -webkit-filter: blur(3px);
-    -ms-filter: blur(3px);
-    -o-filter: blur(3px);
-    filter: blur(3px);
-    -webkit-transform: scale(0.8);
-    
-  }
-
-/* END OF FORM STUFF */
 
 /* CAROUSEL STUFF */
 .carousel-item  {
@@ -118,7 +104,29 @@ h1, h2, h3, h4, h5, p {
 }
 
 
+/* PRICING */
+.pricing .card-body {
+    border: 1px solid var(--mainColor)
+}
+.pricing .btn {
+    background-color: var(--mainColor);
+    color: #ffffff;
+}
 
+.pricing .btn:hover {
+    background-color: #607c3c;
+    color: #ffffff;
+}
+
+.pricing .comprar {
+    text-align: justify;
+    color: #000;
+    text-decoration: none;
+}
+.pricing .comprar:hover {
+    color: #000;
+    text-decoration: underline #000000;
+}
 
 /* FOOTER */
 .footer {
