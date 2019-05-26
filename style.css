@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, p {
 
 
 /* PRICING */
+
 .pricing .card-body {
     border: 1px solid var(--mainColor)
 }
@@ -127,6 +128,48 @@ h1, h2, h3, h4, h5, p {
     color: #000;
     text-decoration: underline #000000;
 }
+
+
+/* TEAM CARD */
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 30px; /* Added */
+}
+
+.card-header {
+    font-family: "SF Display";
+    background-color: #ffffff;
+    color: #000;
+}
+
+.team-section .card-header, .card-body {
+    border: 1px solid var(--mainColor);
+}
+
+.card-title {
+    padding-top: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid var(--mainColor)
+}
+
+.card-body {
+    padding-top: 20px;
+    box-sizing: 200px;
+}
+
+.card .btn {
+    background-color: var(--mainColor);
+    color: #ffffff;
+}
+
+.card .btn:hover {
+    background-color: #607c3c;
+    color: #ffffff;
+}
+
+
+
 
 /* FOOTER */
 .footer {
