@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <section id="contact">
+                <h3 class="text-center">Entre em contato</h3>
+                <div class="container">
+                  <div class="row">
+                    <form id="contact-form" action="" method="POST" class="col-md-6">
+                      <div class="form-group">
+                        <label for="contact-name" class="col-md-1 col-form-label">Nome</label>
+                        <div class="col-md-12">
+                          <input type="text" class="form-control" id="contact-name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="contact-subject" class="col-md-1 col-form-label">Assunto</label>
+                        <div class="col-md-12">
+                          <input type="text" class="form-control" id="contact-subject">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="contact-message" class="col-md-1 col-form-label">Mensagem</label>
+                        <div class="col-md-12">
+                          <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </div>
+                    </form>
+          
+                    <div id="location" class="col-md-6">
+                      <div id="map"></div>
+                    </div>
+                  </div>
+                </div>
+          
+              </section>
+  <!-- Google Maps API -->
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDizvOdbZqXA8Zb8UCi_ba1v8ryGaJwCWY&callback=initMap"
+    type="text/javascript"></script>
+    <script src="./js/maps.js"></script>
+</body>
+</html>
