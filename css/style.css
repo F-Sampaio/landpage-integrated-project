@@ -198,9 +198,11 @@ img {
     color: #ffffff;
 }
 
-
-
-
+/* MAP */
+#map{
+    height: 380px;
+    width: 100%;
+}
 
 
 /* FOOTER */
@@ -224,8 +226,4 @@ img {
 
  .footer a:hover{
      text-decoration: none;
- }
- #map{
-     height: 380px;
-     width: 100%;
  }
