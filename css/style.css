@@ -120,8 +120,6 @@ img {
 }
 
 
-
-
 /* CAROUSEL STUFF */
 .carousel-item  {
     margin-top: 50px;
@@ -198,9 +196,21 @@ img {
     color: #ffffff;
 }
 
+/* CONTACT */
+#contact .btn{
+    background-color: var(--mainColor);
+}
 
+#contact .btn:hover {
+    background-color: #607c3c;
+    color: #ffffff;
+}
 
-
+/* MAP */
+#map{
+    height: 380px;
+    width: 100%;
+}
 
 
 /* FOOTER */
@@ -225,4 +235,3 @@ img {
  .footer a:hover{
      text-decoration: none;
  }
-

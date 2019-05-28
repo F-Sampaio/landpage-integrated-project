@@ -2,6 +2,6 @@ document.getElementById("alter-dark-light-mode").addEventListener("click", alter
 
 
 function alter_color_preference() {
-    document.
 
 }
+
