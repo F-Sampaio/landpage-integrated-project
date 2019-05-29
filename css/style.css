@@ -27,7 +27,6 @@ body {
 body.darkmode {
     background-color: var(--darkColor);
     transition: background-color 1s;
-    /* color: var(--lightColor); */
 }
 
 h1, h2, h3, h4, h5, p {
@@ -76,7 +75,7 @@ section {
 
 #dark {
     border: 1px solid #000;
-    background-color: #000;
+    background-color: #696969;
     color: #ffffff;
 }
 
@@ -113,7 +112,9 @@ section {
     -webkit-appearance: none;
 }
 
-/* CAROUSEL STUFF */
+
+/* Eliminar*/
+/* CAROUSEL STUFF
 
 .carousel-item {
     margin-top: 50px;
@@ -123,7 +124,7 @@ section {
 .carousel-item img {
     position: absolute;
     height: 600px;
-}
+} */
 
 /* PRICING */
 
@@ -239,4 +240,5 @@ section {
 
 .footer a:hover {
     text-decoration: none;
+    color: #fff;
 }
