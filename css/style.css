@@ -43,7 +43,6 @@ img {
 }
 
 
-
 /* MENU STUFF */
 
 .menu-list {
@@ -169,6 +168,10 @@ img {
     border: 1px solid var(--mainColor);
 }
 
+.card img{
+    border-radius: 100px;
+}
+
 .card-title {
     padding-top: 5px;
     font-size: 20px;
@@ -191,6 +194,7 @@ img {
 }
 
 /* CONTACT */
+
 #contact .btn{
     background-color: var(--mainColor);
 }
