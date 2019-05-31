@@ -1,6 +1,6 @@
 :root {
     --mainColor: #809c13;
-    --darkColor: #696969;
+    --darkColor: #192726;
     --lightColor: #ffffff;
 }
 
@@ -73,10 +73,13 @@ section {
     text-decoration: underline var(--mainColor);
 }
 
+
+
 #dark {
     border: 1px solid #000;
     background-color: #696969;
     color: #ffffff;
+    float: right;
 }
 
 /* parallax-main */
@@ -92,9 +95,10 @@ section {
 
 .parallax-main p {
     padding-top: 250px;
-    color: #000;
+    color: #401801;
     text-align: center;
     font-size: 80px;
+    -webkit-text-stroke: 0.003em #D9C382;
 }
 
 /* CONTACT FORM STUFF  */
@@ -111,20 +115,6 @@ section {
     border: 1px solid var(--mainColor);
     -webkit-appearance: none;
 }
-
-
-/* Eliminar*/
-/* CAROUSEL STUFF
-
-.carousel-item {
-    margin-top: 50px;
-    height: 600px;
-}
-
-.carousel-item img {
-    position: absolute;
-    height: 600px;
-} */
 
 /* PRICING */
 
