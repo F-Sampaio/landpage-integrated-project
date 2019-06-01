@@ -45,6 +45,10 @@ section {
     align-items: center;
 }
 
+nav{
+    border-bottom: 1px solid black !important;
+}
+
 /* MENU STUFF
 
 .menu-list {
