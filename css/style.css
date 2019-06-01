@@ -45,34 +45,6 @@ section {
     align-items: center;
 }
 
-/* MENU STUFF */
-
-.menu-list {
-    width: 100%;
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    overflow: hidden;
-    border-bottom: 1px solid #000;
-    border-bottom-width: 100%;
-}
-
-.menu-list-item {
-    float: left;
-    font-size: 20px;
-    border-width: 1px;
-}
-
-.menu-list-item a {
-    color: #000;
-    margin: 20px;
-}
-
-.menu-list-item a:hover {
-    color: #000;
-    text-decoration: underline var(--mainColor);
-}
-
 
 #dark {
     border: 1px solid #000;
