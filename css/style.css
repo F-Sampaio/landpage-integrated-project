@@ -95,10 +95,11 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .parallax-main p {
-    padding-top: 250px;
     color: #401801;
     text-align: center;
     font-size: 80px;
@@ -169,7 +170,9 @@ section {
 }
 
 .card img {
-    border-radius: 100px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-title {
@@ -235,4 +238,13 @@ section {
 .footer a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    
+    .parallax-main p{
+        font-size: 50px;
+        color: white;
+    }
+
 }
