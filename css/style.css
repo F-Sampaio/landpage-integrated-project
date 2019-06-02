@@ -10,6 +10,7 @@
     src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html {
     scroll-behavior: smooth;
     overflow-x: auto;
@@ -45,7 +46,7 @@ section {
     align-items: center;
 }
 
-nav{
+nav {
     border-bottom: 1px solid black !important;
 }
 
@@ -101,13 +102,36 @@ nav{
     background-size: cover;
     display: flex;
     align-items: center;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
 }
 
-.parallax-main p {
-    color: #401801;
+.parallax-text h1 {
+    color: #009432;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
     text-align: center;
-    font-size: 80px;
-    -webkit-text-stroke: 0.003em #D9C382;
+    text-shadow: 0px 5px 8px black;
+    font-size: 70px;
+    -webkit-text-stroke: 0.05em black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax-text a {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
 /* CONTACT FORM STUFF  */
@@ -245,10 +269,8 @@ nav{
 }
 
 @media (max-width: 768px) {
-    
-    .parallax-main p{
+    .parallax-main p {
         font-size: 50px;
         color: white;
     }
-
 }
